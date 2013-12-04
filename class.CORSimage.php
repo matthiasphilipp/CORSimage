@@ -24,7 +24,7 @@ class CORSimg {
 	
 	function load($filename) {
 		$file_parts = explode('.',$filename);
-		$this->image_type = strtolower($filename[count($filename)-1]);
+		$this->image_type = strtolower($file_parts[count($file_parts)-1]);
 		switch($this->image_type){
 			case 'jpg':
 			case 'jpeg':
