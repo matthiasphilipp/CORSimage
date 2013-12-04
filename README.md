@@ -14,8 +14,8 @@ Usage
 
 ``` php
 /* general */
-required("class.CORSimage.php");
-$image = new CORSimage('filename'); // can be jpg, gif, png, svg
+require("class.CORSimage.php");
+$image = new CORSimg('filename'); // can be jpg, gif, png, svg
 ```
 
 Acknowledgements
